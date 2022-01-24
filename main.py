@@ -1,5 +1,5 @@
 from table import table
-from Player import player
+from player import player
 
 if __name__ == '__main__':
     print('WELCOME !!\n')
@@ -35,7 +35,7 @@ if __name__ == '__main__':
     if winner:
         print('player : ' + playing.shape + ' won!!')
     elif full:
-        print('the bord if full :(')
+        print('the bord is full :( ')
 
 
 
